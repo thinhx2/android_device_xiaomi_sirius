@@ -34,8 +34,8 @@ PRODUCT_PACKAGES += \
     init.target.rc
 
 # HIDL
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/manifest.xml:system/etc/manifest.xml
+# PRODUCT_COPY_FILES += \
+#     $(LOCAL_PATH)/manifest.xml:system/etc/manifest.xml
 
 # Input
 PRODUCT_COPY_FILES += \
