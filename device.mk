@@ -30,8 +30,8 @@ PRODUCT_PACKAGES += \
     fstab.qcom
 
 # Device init scripts
-PRODUCT_PACKAGES += \
-    init.target.rc
+# PRODUCT_PACKAGES += \
+#     init.target.rc
 
 # HIDL
 # PRODUCT_COPY_FILES += \
