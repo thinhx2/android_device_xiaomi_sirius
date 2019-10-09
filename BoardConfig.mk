@@ -24,7 +24,7 @@ TARGET_KERNEL_CONFIG := sirius_defconfig
 TARGET_OTA_ASSERT_DEVICE := sirius
 
 # HIDL
-# DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
+DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
