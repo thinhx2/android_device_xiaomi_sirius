@@ -72,7 +72,7 @@
         <item>50</item>
         <item>80</item>
         <item>110</item>
-	   <item>155</item>
+	<item>155</item>
         <item>173</item>
         <item>300</item>
         <item>387</item>
@@ -86,7 +86,7 @@
         <item>1733</item>
         <item>2034</item>
         <item>2227</item>
-	   <item>2517</item>
+	<item>2517</item>
         <item>3042</item>
         <item>3495</item>
         <item>3998</item>
@@ -107,10 +107,10 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>4.05</item>
-	   <item>4.66</item>
-	   <item>5.26</item>
-        <item>5.87</item>
+        <item>3.54</item>
+	<item>4.05</item>
+	<item>4.66</item>
+        <item>5.26</item>
         <item>5.87</item>
         <item>5.87</item>
         <item>5.87</item>
@@ -677,12 +677,12 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">4</integer>
+    <integer name="config_screenBrightnessDim">3</integer>
 
     <!-- Screen brightness used to dim the screen while dozing in a very low power state.
          May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">4</integer>
+    <integer name="config_screenBrightnessDoze">3</integer>
 
     <!-- Default screen brightness setting.
          Must be in the range specified by minimum and maximum. -->
@@ -690,7 +690,7 @@
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">4</integer>
+    <integer name="config_screenBrightnessSettingMinimum">3</integer>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
@@ -705,15 +705,13 @@
          Note that a physical cutout should be configured in pixels for the best results.
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
-        M-273,38
-        C-267.971,66.428 -258.501,85 -219,85
-        L219,85 C258.501,85 267.971,66.428 273,38
-        L275,27 C278.312,8.531 288.613,3.53 293,2
-        C298.735,-0.000999997016 303.336,2.98420143e-09 308,-1.9732127e-09
-        L-308,-1.9732127e-09
-        C-303.335,2.98420143e-09 -298.735,-0.000999997016 -293,2
-        C-288.613,3.53 -278.312,8.531 -275,27
-        L-273,38
+        M270,0
+        271,38
+        C265.971,66.428 256.501,83 217,83
+        L0,83
+        L-217,83
+        C-256.501,83 -265.971,66.428 -271,38
+        L-270,0
         Z
     </string>
 
