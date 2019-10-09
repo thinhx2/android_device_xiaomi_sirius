@@ -25,6 +25,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Properties
+-include $(LOCAL_PATH)/device-props.mk
+
 # Device fstab
 PRODUCT_PACKAGES += \
     fstab.qcom
