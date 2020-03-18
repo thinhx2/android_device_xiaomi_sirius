@@ -107,9 +107,9 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>3.54</item>
-        <item>4.05</item>
-        <item>4.66</item>
+        <item>3.04</item>
+        <item>3.65</item>
+        <item>4.36</item>
         <item>5.26</item>
         <item>5.87</item>
         <item>5.87</item>
