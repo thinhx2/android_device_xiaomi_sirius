@@ -19,13 +19,14 @@ vendor/lib/rfsa/adsp/misound_res.bin|aeb77965bbb9568298a69f65527837ba9150f56e
 # Audio (speaker amplifier) firmware
 vendor/firmware/tas2557_uCDSP_aac.bin|6548f5982603a1bd04a1968f1cfdc3b1f607ca5d
 vendor/firmware/tas2557_uCDSP_goer.bin|6548f5982603a1bd04a1968f1cfdc3b1f607ca5d
-vendor/lib/soundfx/libmisoundfx.so|cdf48f361ce85257324a9e5a8cb857df19d6142e
 
 # Audio (speaker amplifier) calibration
 vendor/etc/tas2557_aac.ftcfg|a3e21bb8e933aabf8a1d9990298dc57a8229d412
 vendor/etc/tas2557_goer.ftcfg|a3e21bb8e933aabf8a1d9990298dc57a8229d412
 
 # Bluetooth
+system/lib/libbtconfigstore.so
+system/lib64/libbtconfigstore.so
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|74b5d2e7867e34c0e358cf8d82f3bfea58e97c28
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|943a18d91664ab54095c8ada7a9b9b73bcca1f99
