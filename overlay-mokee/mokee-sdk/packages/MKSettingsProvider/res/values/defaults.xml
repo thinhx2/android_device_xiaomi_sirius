@@ -15,10 +15,10 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Default clock position
-         * 0: show the clock in the right position (LTR)
-         * 1: show the clock in the center
-         * 2: show the clock in the left position (LTR)
+    <!-- Default for MKSettings.System.STATUS_BAR_BATTERY_STYLE
+         * 0: Display the battery as icon in portrait mode
+         * 1: Display the battery as a circle
+         * 2: Display the battery as plain text
     -->
-    <integer name="def_clock_position">2</integer>
+    <integer name="def_battery_style">0</integer>
 </resources>

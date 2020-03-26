@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2020 The MoKee Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -21,10 +21,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay-mokee
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-lineage/lineage-sdk
+    $(DEVICE_PATH)/overlay-mokee/mokee-sdk
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -81,7 +81,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.xiaomi_sdm710
+    vendor.mokee.livedisplay@2.0-service.xiaomi_sdm710
 
 # PocketMode
 PRODUCT_PACKAGES += \
