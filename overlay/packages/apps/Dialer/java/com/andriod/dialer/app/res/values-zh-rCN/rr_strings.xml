@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+     Copyright (C) 2018 AICP ROM
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="other_settings_label">其他设置</string>
+
+    <!-- InCall vibration settings -->
+    <string name="incall_vibration_category_key" translatable="false">dialer_general_incall_vibration_category_key</string>
+    <string name="incall_vibration_category_title">In-call vibration</string>
+    <string name="incall_vibrate_outgoing_key" translatable="false">incall_vibrate_outgoing</string>
+    <string name="incall_vibrate_outgoing_title">对方接听时振动</string>
+    <string name="incall_vibrate_call_waiting_key" translatable="false">incall_vibrate_call_waiting</string>
+    <string name="incall_vibrate_call_waiting_title">呼叫等待时振动</string>
+    <string name="incall_vibrate_hangup_key" translatable="false">incall_vibrate_hangup</string>
+    <string name="incall_vibrate_hangup_title">通话结束时振动</string>
+    <string name="incall_vibrate_45_key" translatable="false">incall_vibrate_45secs</string>
+    <string name="incall_vibrate_45_title">每分钟振动</string>
+    <string name="incall_vibrate_45_summary">呼出通话达到每分钟的 45 秒时振动</string>
+
+    <!-- Smart Options -->
+    <string name="smart_category_title">其他选项</string>
+    <string name="smart_mute_title">智能静音</string>
+    <string name="smart_mute_summary">来电时翻转设备静音</string>
+
+    <!-- Proximity speaker -->
+    <string name="speaker_settings_label">智能扬声器</string>
+    <string name="prox_auto_speaker_title">智能扬声器</string>
+    <string name="prox_auto_speaker_summary">远离耳朵时自动开启免提，接近耳朵时自动关闭免提。</string>
+    <string name="prox_auto_speaker_delay_title">切换延迟</string>
+    <string name="prox_auto_speaker_delay_dialog_title">切换延迟 (毫秒)</string>
+    <string name="prox_auto_speaker_delay_summary"><xliff:g id="number">%d</xliff:g> 毫秒后自动切换</string>
+    <string name="prox_auto_speaker_incall_only_title">通话中开启</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">在拨打电话时，只有在对方应答后才会开启扬声器切换。</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">在拨打电话过的整个程中开启扬声器切换。（默认）</string>
+
+    <!-- Dialer postcall -->
+    <string name="enable_post_call_title">通话结束通知</string>
+    <string name="enable_post_call_summary">在屏幕底部启用通话结束通知</string>
+
+    <!-- Disable proximity sensor -->
+    <string name="disable_proximity_sensor_title">禁用接近传感器</string>
+    <string name="disable_proximity_sensor_summary">通话过程中屏幕常亮</string>
+
+    <!-- proximity autoanswer feature -->
+    <string name="prox_auto_answer_incall_only_title">仅在呼叫中自动应答</string>
+    <string name="prox_auto_answer_incall_only_summary">使用接近传感器自动应答</string>
+
+    <string name="auto_answer_call_title">自动应答</string>
+    <string name="auto_answer_call_summary">通过蓝牙或有线耳机连接时自动接听来电</string>
+    <string name="auto_answer_delay_title">自动应答延迟</string>
+    <string name="auto_answer_dialog_title">延迟时间 (毫秒)</string>
+    <string name="auto_answer_delay_summary"><xliff:g id="number">%d</xliff:g> 毫秒后自动应答</string>
+</resources>
