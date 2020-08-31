@@ -9,6 +9,9 @@ $(call inherit-product, device/xiaomi/sirius/device.mk)
 # Inherit some common RR stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
+# Build Type
+RR_BUILDTYPE := Official
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_sirius
 PRODUCT_DEVICE := sirius
