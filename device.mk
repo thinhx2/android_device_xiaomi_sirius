@@ -60,10 +60,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
-# GPS
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/gps/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf
-
 # Input
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/uinput-fpc.idc \
